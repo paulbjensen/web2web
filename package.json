@@ -1,0 +1,28 @@
+{
+  "name": "web2web",
+  "version": "1.0.0",
+  "description": "P2P web powered by torrents and blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/static-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elendirx/web2web.git"
+  },
+  "keywords": [
+    "web2web",
+    "p2p",
+    "blockchain"
+  ],
+  "author": "Michal Spicka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elendirx/web2web/issues"
+  },
+  "homepage": "https://github.com/elendirx/web2web#readme",
+  "dependencies": {
+    "static-server": "^2.0.3"
+  }
+}
